@@ -1,0 +1,34 @@
+{
+    "womenfashion": [
+        {
+            "id": "1",
+            "title": "soft brown jacket",
+            "imageUrl": "/images/softbrownjacket.jpg"
+        },
+        {
+            "id": "2",
+            "title": "yellow puffer jacket",
+            "imageUrl": "/images/yellowpufferjacket.jpg"
+        },
+        {
+            "id": "3",
+            "title": "brown stripe top",
+            "imageUrl": "/images/brownstripetop.jpg"
+        },
+        {
+            "id": "4",
+            "title": "yellow crop top",
+            "imageUrl": "/images/yellowcroptop.jpg"
+        },
+        {
+            "id": "5",
+            "title": "brown fringe jacket",
+            "imageUrl": "/images/brownfringejacket.jpg"
+        },
+        {
+            "id": "6",
+            "title": "yellow sleeveless top",
+            "imageUrl": "/images/yellowsleevelesstop.jpg"
+        }
+    ]
+}
