@@ -1,6 +1,5 @@
-import jsonData from './categories.json';
+import jsonData from './categoriesnav.json';
 
 export function getCategoriesNav() {
-    console.log(jsonData);
     return jsonData;
 };

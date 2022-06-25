@@ -13,4 +13,6 @@ code {
     monospace;
 }
 
-
+.slick-slide > div {
+  height: 400px;
+}

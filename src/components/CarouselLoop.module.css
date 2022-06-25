@@ -1,8 +1,5 @@
 @media (min-width: 320px) {
 }
-  
-
-
 @media (min-width: 834px) {
 }
 @media (min-width: 1440px) {
@@ -10,5 +7,30 @@
     width: 400px;
     display: inline;
 
+  }
 }
+
+img {
+  margin: auto;
+}
+
+.slide-img {
+  width: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.slick-slide {
+  margin: auto;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  padding: 0px;
+  background: red;
 }
