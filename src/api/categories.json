@@ -1,0 +1,19 @@
+{
+    "categories": [
+        {
+            "id": "men",
+            "title": "men-fashion",
+            "imageUrl": "/images/men-fashion.jpg"
+        },
+        {
+            "id": "kids",
+            "title": "kids-fashion",
+            "imageUrl": "/images/kids-fashion.jpg"
+        },
+        {
+            "id": "home",
+            "title": "home-decor",
+            "imageUrl": "/images/home-decor.jpg"
+        }
+    ]
+}

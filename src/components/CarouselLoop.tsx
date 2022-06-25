@@ -1,22 +1,62 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from 'react-bootstrap/Carousel';
-import styles from './CarouselLoop.module.css';
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const CarouselLoop = (props: any) => {
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 2000,
+    slidesToShow: 7,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    responsive: [
+      {
+        breakpoint: 1440,
+        settings: {
+          slidesToShow: 3.2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 2.2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      }
+    ]
+  };
     
   return (
-    <Carousel>
+    <Slider {...settings}>
       {props.data.womenfashion.map((item: any, index: any) => 
         { return (
-          <Carousel.Item interval={3000}>
-            <img className="d-block w-100" src={item.imageUrl}></img>
-        </Carousel.Item>
+          <div>
+            <img src={item.imageUrl}></img>
+            </div>
           )
         }
       )}
-    </Carousel>
+    </Slider>
   )
 }
 
