@@ -1,4 +1,3 @@
-import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -13,7 +12,7 @@ const OtherCategories = (props: any) => {
         <Row>
         {props.data.categoriesnav.map((item: any, index: any) => {
         return (
-          <Col key={index} className="OtherCategories"> <img src={item.imageUrl}/>
+          <Col key={index} className="OtherCategories"> <img src={item.imageUrl} alt="Click for more details"/>
           <br></br>
           <Button variant="outline-light" className="CategoriesName"> {item.id} </Button></Col>
         );

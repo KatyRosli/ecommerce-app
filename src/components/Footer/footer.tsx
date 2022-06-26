@@ -1,8 +1,6 @@
-import React from "react";
 import "./footer.css";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import ReactDOM from "react-dom";
 import "./footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
