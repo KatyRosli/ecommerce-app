@@ -58,7 +58,7 @@ const CarouselLoop = (props: any) => {
         return (
           <div className="slide-img" key={index}>
               <PrimaryButton></PrimaryButton>
-              <img src={item.imageUrl}></img>
+              <img src={item.imageUrl} alt="Shop this great fashion"></img>
           </div>
         );
       })}
