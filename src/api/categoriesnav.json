@@ -1,17 +1,17 @@
 {
     "categoriesnav": [
         {
-            "id": "Men",
+            "id": "MEN",
             "title": "men-fashion",
             "imageUrl": "/images/men-fashion.jpg"
         },
         {
-            "id": "Kids",
+            "id": "KIDS",
             "title": "kids-fashion",
             "imageUrl": "/images/kids-fashion.jpg"
         },
         {
-            "id": "Living",
+            "id": "HOME",
             "title": "home-decor",
             "imageUrl": "/images/home-decor.jpg"
         }

@@ -4,10 +4,13 @@
     position: absolute;
     color: #262623;
     font-family: 'Noto Sans', sans-serif;
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 16px 8px 16px;
+    border: none;
     }
 
-.PrimaryButton :hover {
+.PrimaryButton:hover {
     background-color: #262623;
     color: #FBF8F1;
     }

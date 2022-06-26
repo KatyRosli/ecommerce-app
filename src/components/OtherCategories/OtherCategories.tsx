@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import "./OtherCategories.css";
 
 const OtherCategories = (props: any) => {
     
@@ -12,9 +13,9 @@ const OtherCategories = (props: any) => {
         <Row>
         {props.data.categoriesnav.map((item: any, index: any) => {
         return (
-          <Col key={index} style={{width:"300px"}}> <img src={item.imageUrl}/>
+          <Col key={index} className="OtherCategories"> <img src={item.imageUrl}/>
           <br></br>
-          <Button> {item.id} </Button></Col>
+          <Button variant="outline-light" className="CategoriesName"> {item.id} </Button></Col>
         );
       })}
        </Row>

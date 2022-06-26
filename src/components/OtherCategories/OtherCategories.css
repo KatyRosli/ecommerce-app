@@ -1,0 +1,18 @@
+.OtherCategories{
+    width: 300px;
+}
+
+.CategoriesName{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FBF8F1;
+    padding: 8px 16px 8px 16px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.CategoriesName:hover{
+    background-color: #FBF8F1;
+    color: #262623;
+}

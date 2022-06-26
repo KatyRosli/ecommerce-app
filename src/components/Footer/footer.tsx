@@ -1,7 +1,6 @@
 import React from "react";
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
+
+import Footer from 'react-bootstrap/Footer';
 import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -10,16 +9,20 @@ library.add(faFacebookF, faInstagram, faTwitter, faYoutube);
 
 const Footer = () => {
     return (
-        <Navbar bg="dark" variant="dark">
         <Container>
-            <Nav className="justify-content-center">
+            <Footer className="Footer">
             <Nav.Link href="#instagram"><FontAwesomeIcon icon={faInstagram} /></Nav.Link>
             <Nav.Link href="#twitter"><FontAwesomeIcon icon={faTwitter} /></Nav.Link>
             <Nav.Link href="#facebook"><FontAwesomeIcon icon={faFacebookF} /></Nav.Link>
             <Nav.Link href="#youtube"><FontAwesomeIcon icon={faYoutube} /></Nav.Link>
-            </Nav>
+            <div> © 2022 MANGO All rights reserved </div>
+            <Container>
+            <Nav.Link href="#PolicyAndCookies">Privacy Policy and Cookies</Nav.Link>
+            <div> | </div> 
+            <Nav.Link href="#TermsAndConditions">Terms and Conditions</Nav.Link>
+            </Container>
+            </Footer>
         </Container>
-        </Navbar>
         )
 }
   export default Footer;
