@@ -58,19 +58,8 @@ const CarouselLoop = (props: any) => {
       {props.data.womenfashion.map((item: any, index: any) => {
         return (
           <div className="slide-img" key={index}>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignItems: "center",
-                alignContent: "center",
-                flexDirection: "column-reverse",
-                flexWrap: "nowrap",
-              }}
-            >
               <PrimaryButton></PrimaryButton>
               <img src={item.imageUrl}></img>
-            </div>
           </div>
         );
       })}

@@ -12,3 +12,11 @@
  background-color: #FBF8F1;
 }
 
+.slide-img{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+}
