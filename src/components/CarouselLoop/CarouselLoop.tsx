@@ -3,31 +3,22 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import PrimaryButton from "./PrimaryButton";
-import "./CarouselLoop.module.css";
+import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import "./CarouselLoop.css";
 
 const CarouselLoop = (props: any) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 5000,
+    speed: 400,
     slidesToShow: 7,
     slidesToScroll: 1,
     swipeToSlide: true,
     autoplay: true,
-    autoplaySpeed: 1000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
     customPaging: (i: number) => (
-      <div
-        style={{
-          width: "40px",
-          height: "10px",
-          margin: "20px 0 0 0",
-          padding: "0 10px 0 10px",
-          backgroundColor: "#FBF8F1",
-          border: "3px #262623 solid"
-        }}
-      >
+      <div className="custom-paging">
       </div>
     ),
     responsive: [
@@ -66,7 +57,7 @@ const CarouselLoop = (props: any) => {
     <Slider {...settings}>
       {props.data.womenfashion.map((item: any, index: any) => {
         return (
-          <div className={"slide-img"} key={index}>
+          <div className="slide-img" key={index}>
             <div
               style={{
                 display: "flex",

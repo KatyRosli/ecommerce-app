@@ -1,0 +1,13 @@
+.PrimaryButton {
+    background-color: #FBF8F1;
+    margin: auto;
+    position: absolute;
+    color: #262623;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    }
+
+.PrimaryButton :hover {
+    background-color: #262623;
+    color: #FBF8F1;
+    }
