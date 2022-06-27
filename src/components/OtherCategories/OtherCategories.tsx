@@ -9,7 +9,7 @@ const OtherCategories = (props: any) => {
   return (
     <Container>
       <Row>
-        {props.data.categoriesnav.map((item: any, index: any) => {
+        {props.data.map((item: any, index: any) => {
           return (
             <Col key={index} className="OtherCategories">
               {" "}

@@ -54,11 +54,13 @@ const CarouselLoop = (props: any) => {
 
   return (
     <Slider {...settings}>
-      {props.data.womenfashion.map((item: any, index: any) => {
+      {props.data.map((item: any, index: any) => {
         return (
           <div className="slide-img" key={index}>
               <PrimaryButton></PrimaryButton>
-              <img src={item.imageUrl} alt="Shop this great fashion"></img>
+              <div className="img-container">
+                <img src={item.imageUrl} alt="Shop this great fashion" />
+              </div>
           </div>
         );
       })}
