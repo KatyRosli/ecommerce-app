@@ -1,4 +1,3 @@
-import React from 'react';
 import { getWomenFashion } from '../../api/women-fashion';
 import Carouselloop from '../../components/CarouselLoop/CarouselLoop';
 import OtherCategories from '../../components/OtherCategories/OtherCategories';
