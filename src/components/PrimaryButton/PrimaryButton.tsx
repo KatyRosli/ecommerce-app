@@ -1,8 +1,16 @@
 import "./PrimaryButton.css";
+import { Link, BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-const PrimaryButton = () => {
-return (
-    <button className="PrimaryButton"> SHOP THE LOOK </button>
-)
+const PrimaryButton = (props: any) => {
+
+    return (
+        <Router>
+            <Link className="PrimaryButton" to={`/${props.link}`}> SHOP THE LOOK </Link>
+            <Routes>
+                <Route path="/:id" element={""}/>
+            </Routes>
+        </Router>
+        
+    )
 }
 export default PrimaryButton;

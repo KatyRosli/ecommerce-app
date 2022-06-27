@@ -1,42 +1,42 @@
 {
     "womenfashion": [
         {
-            "id": "1",
+            "id": "cardigan-1",
             "title": "yellow cardigan",
             "imageUrl": "/images/yellowcardigan.jpg"
         },
         {
-            "id": "2",
+            "id": "softjacket-1",
             "title": "soft brown jacket",
             "imageUrl": "/images/softbrownjacket.jpg"
         },
         {
-            "id": "3",
+            "id": "pufferjacket-2",
             "title": "yellow puffer jacket",
             "imageUrl": "/images/yellowpufferjacket.jpg"
         },
         {
-            "id": "4",
+            "id": "blazer-2",
             "title": "brown blazer",
             "imageUrl": "/images/brownblazer.jpg"
         },
         {
-            "id": "5",
+            "id": "croptop-3",
             "title": "yellow crop top",
             "imageUrl": "/images/yellowcroptop.jpg"
         },
         {
-            "id": "6",
+            "id": "fringejacket-3",
             "title": "brown fringe jacket",
             "imageUrl": "/images/brownfringejacket.jpg"
         },
         {
-            "id": "7",
+            "id": "slevelesstop-4",
             "title": "yellow sleeveless top",
             "imageUrl": "/images/yellowsleevelesstop.jpg"
         },
         {
-            "id": "8",
+            "id": "buttonblazer-5",
             "title": "brown button blazer",
             "imageUrl": "/images/brownbuttonblazer.jpg"
         }

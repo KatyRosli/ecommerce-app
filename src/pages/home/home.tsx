@@ -9,7 +9,7 @@ const Home = (props:any) => {
 
     return (<div>
         <Carouselloop data={getWomenFashion()}/>
-        <div className="page-header"> Our Other Lines: </div>
+        <div className="page-header"> Our Other Lines </div>
         <OtherCategories data={getCategoriesNav()} />
         </div>)
 }

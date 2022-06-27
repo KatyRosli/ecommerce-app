@@ -1,6 +1,15 @@
 .OtherCategories{
     width: 300px;
-    height: auto;
+    height: 375px;
+}
+
+.OtherLines:hover {
+    opacity: 0.3;
+}
+    
+.OtherLines {
+    width: 300px;
+    height: 375px;
 }
 
 .CategoriesName{
@@ -8,9 +17,10 @@
     font-size: 16px;
     font-weight: 700;
     color: #FBF8F1;
-    padding: 8px 16px 8px 16px;
-    margin-top: 16px;
-    margin-bottom: 32px;
+    padding: 8px 80px 8px 80px;
+    margin-top: 4px;
+    margin-bottom: 48px;
+    border-radius: 0;
 }
 
 .CategoriesName:hover{
