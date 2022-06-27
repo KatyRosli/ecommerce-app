@@ -57,7 +57,7 @@ const CarouselLoop = (props: any) => {
       {props.data.map((item: any, index: any) => {
         return (
           <div className="slide-img" key={index}>
-              <PrimaryButton link={item.id}></PrimaryButton>
+              <PrimaryButton></PrimaryButton>
               <div className="img-container">
                 <img src={item.imageUrl} alt="Shop this great fashion" />
               </div>

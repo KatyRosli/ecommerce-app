@@ -13,7 +13,7 @@ const OtherCategories = (props: any) => {
           return (
             <Col key={index} className="OtherCategories">
               {" "}
-              <a href="#"><img className="OtherLines" src={item.imageUrl} alt="Click for more details" /></a>
+              <img className="OtherLines" src={item.imageUrl} alt="Click for more details" />
               <div className="ShopNow"><div className="ShopNowButton">SHOP NOW</div></div>
               <Button variant="outline-light" className="CategoriesName">
                 {" "}
