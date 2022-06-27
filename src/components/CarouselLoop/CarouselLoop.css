@@ -2,8 +2,8 @@
 .custom-paging { 
   width: 40px;
   height: 10px;
-  margin: 20px 0 0 0;
-  padding: 0 10px 0 10px;
+  margin: 24px 0 0 0;
+  padding: 0 16px 0 16px;
   background-color: #908F8A;
   border: 3px #262623 solid;
 }
@@ -21,10 +21,12 @@
   flex-wrap: nowrap;
 }
 
-.img-container {
-
+.slick-slide > div {
+  width: 400px;
 }
 
-.img-container img {
-  
+.slick-slide img {
+  display: block;
+  width: 400px;
+  height: 450px;
 }
